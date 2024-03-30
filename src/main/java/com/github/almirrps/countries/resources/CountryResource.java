@@ -2,7 +2,6 @@ package com.github.almirrps.countries.resources;
 
 import com.github.almirrps.countries.entities.Country;
 import com.github.almirrps.countries.repositories.CountryRepository;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

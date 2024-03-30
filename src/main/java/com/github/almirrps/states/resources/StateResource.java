@@ -2,7 +2,6 @@ package com.github.almirrps.states.resources;
 
 import com.github.almirrps.states.entities.State;
 import com.github.almirrps.states.repositories.StateRepository;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;

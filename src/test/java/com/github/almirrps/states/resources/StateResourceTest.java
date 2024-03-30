@@ -41,8 +41,8 @@ class StateResourceTest {
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().contentType("application/json;charset=UTF-8"))
-        .andExpect(jsonPath("$content.[0].name", is("São Paulo")))
-        .andExpect(jsonPath("$content.[0].uf", is("SP")));
+        .andExpect(jsonPath("$.content.[0].name", is("São Paulo")))
+        .andExpect(jsonPath("$.content.[0].uf", is("SP")));
   }
 
 }

@@ -13,7 +13,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.geo.Point;
@@ -105,6 +104,12 @@ public class DistanceService {
     return earthRadius.getValue() * c;
   }
 
+  /**
+   *
+   * @param cityId
+   * @param radius
+   * @return
+   */
   public List<City> nearby(long cityId, Double radius) {
     Optional<City> city = cityRepository.findById(cityId);
     List<City> result = null;
