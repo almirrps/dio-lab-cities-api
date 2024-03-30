@@ -1,11 +1,17 @@
 # Cities API
+Project created to learn how to develop a Java Spring Application to find cities in a radius away and deploy in Heroku server.
 
 ## Requirements
 
 * Linux
 * Git
-* Java 8
+* Java 17
+* Gradle Project
+* Spring Web
+* Spring Data JPA
+* Spring Boot
 * Docker
+* PostgreSQL Driver
 * IntelliJ Community
 * Heroku CLI
 * Travis CLI
@@ -52,13 +58,6 @@ select earth_distance(
 ## Spring Boot
 
 * [https://start.spring.io/](https://start.spring.io/)
-
-+ Java 8
-+ Gradle Project
-+ Jar
-+ Spring Web
-+ Spring Data JPA
-+ PostgreSQL Driver
 
 ### Spring Data
 
