@@ -2,7 +2,9 @@ package com.github.almirrps.countries.resources;
 
 import com.github.almirrps.countries.entities.Country;
 import com.github.almirrps.countries.repositories.CountryRepository;
-import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,8 +18,8 @@ public class CountryResource {
   }
 
   @GetMapping("/countries")
-  public List<Country> cities() {
-
-    return repository.findAll();
+  public Page<Country> cities(final Pageable page) {
+    return repository.findAll(page);
   }
+
 }
