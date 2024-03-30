@@ -6,10 +6,10 @@ Project created to learn how to develop a Java Spring Application to find cities
 * Linux
 * Git
 * Java 17
-* Gradle Project
+* Gradle Project 7.6
+* Spring Boot 2.4.2
 * Spring Web
 * Spring Data JPA
-* Spring Boot
 * Docker
 * PostgreSQL Driver
 * IntelliJ Community
