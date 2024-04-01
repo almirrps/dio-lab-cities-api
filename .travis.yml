@@ -12,5 +12,5 @@ jobs:
 
 deploy:
   provider: heroku
-  app: dio-cities-api-2
+  app: dio-cities-api
   api_key: $HEROKU_KEY_BLA
